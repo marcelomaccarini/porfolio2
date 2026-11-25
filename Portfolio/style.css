@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+main{
+    background-color: rgb(201, 120, 181);
+    background-image: url(https://preview.redd.it/my-attempt-at-a-pc-background-v0-aig27h1meoq11.jpg?width=640&crop=smart&auto=webp&s=63e1a55c303439270124ef7cc82d3691d6812f19);
+    background-size: cover ;
+    text-align: center;
+    flex: 1;
+    color: rgb(245, 243, 245);
+}
+footer{
+    display:flex ;
+    background-color: rgba(172, 44, 119, 0.438);
+    height: 50px;
+    margin-bottom: 0%;
+    align-items: center;
+    margin-top: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://preview.redd.it/my-attempt-at-a-pc-background-v0-aig27h1meoq11.jpg?width=640&crop=smart&auto=webp&s=63e1a55c303439270124ef7cc82d3691d6812f19);
+    background-size: cover ;
+    min-height: 100vh;
+    margin: 0;
+}
+a p{
+    background-color: rgb(136, 123, 209);
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 1s all;
+}
+a p:hover{
+   background-color: rgb(128, 14, 143);
+   transform: scale(1.2);
+}
