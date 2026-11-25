@@ -37,6 +37,6 @@ a p{
     transition: 1s all;
 }
 a p:hover{
-   background-color: rgb(143, 14, 14);
+   background-color: rgb(128, 14, 143);
    transform: scale(1.2);
 }
